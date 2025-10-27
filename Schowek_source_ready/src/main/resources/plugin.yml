@@ -1,0 +1,16 @@
+name: Schowek
+main: com.schowek.SchowekPlugin
+version: 1.0
+api-version: 1.8
+commands:
+  schowek:
+    description: Otwórz schowek GUI lub użyj subkomend admina.
+    usage: /schowek | /schowek set <gracz> <typ> <ilość> | /schowek giveall <typ> <ilość> | /schowek reload
+    aliases: [magazyn, refill]
+permissions:
+  schowek.uzyj:
+    description: Pozwala używać schowka
+    default: true
+  schowek.admin:
+    description: Uprawnienia do ustawień refilli / giveall / reload
+    default: op

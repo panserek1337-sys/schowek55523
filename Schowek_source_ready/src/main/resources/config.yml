@@ -1,0 +1,45 @@
+# Schowek - prosty config (polski)
+tytul: "&5Schowek"
+
+# Domyślne limity (ile razy gracz może użyć refillu dla danego typu)
+limity:
+  lod: 5
+  strzaly: 5
+  sniezki: 5
+  perelki: 3
+
+# Domyślne ilości przedmiotów przy refillu
+ilosci:
+  lod: 16
+  strzaly: 32
+  sniezki: 16
+  perelki: 1
+
+# Definicje przedmiotów - łatwo dodać nowe
+przedmioty:
+  lod:
+    material: ICE
+    nazwa: "&bLód"
+    limit: 5
+    ilosc: 16
+  strzaly:
+    material: ARROW
+    nazwa: "&bStrzały"
+    limit: 5
+    ilosc: 32
+  sniezki:
+    material: SNOW_BALL
+    nazwa: "&bŚnieżki"
+    limit: 5
+    ilosc: 16
+  perelki:
+    material: ENDER_PEARL
+    nazwa: "&bPerły"
+    limit: 3
+    ilosc: 1
+
+# Przycisk "Dobierz wszystko"
+dobierz_wszystko:
+  slot: 31
+  material: EMERALD
+  nazwa: "&aDobierz wszystko"
